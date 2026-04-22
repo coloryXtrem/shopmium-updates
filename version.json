@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v1.1.0/ShopmiumPdfAutomator_Setup_v1.1.0.exe",
   "notes": "- Correction détection TVA (Solution 6 rayon)\n- Amélioration ticket Carrefour Drive\n- Mise à jour silencieuse",
   "required": false
