@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v2.0.0/ShopmiumPdfAutomator_Setup_v2.0.0.exe",
-  "notes": "- Correction détection TVA (Solution 6 rayon)\n- Amélioration ticket Carrefour Drive\n- Mise à jour silencieuse",
+  "version": "1.1.0",
+  "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v1.1.0/ShopmiumPdfAutomator_Setup_v1.1.0.exe",
+  "notes": "- Detection TVA via rayon Shopmium (910 mots-cles)\n- Detection enseignes corrigee (exclusions, sous-enseignes Carrefour Proxi)\n- Faux messages d erreur supprimes\n- Licence expiree : renouvellement sans fermer l app\n- Erreur COM Photoshop 80080005 : message clair",
   "required": false
 }
