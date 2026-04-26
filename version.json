@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v2.0.0/ShopmiumPdfAutomator_Setup_v2.0.0.exe",
-  "notes": "- Detection TVA via rayon Shopmium (910 mots-cles)\n- Detection enseignes corrigee (exclusions, sous-enseignes Carrefour Proxi)\n- Faux messages d erreur supprimes\n- Licence expiree : renouvellement sans fermer l app\n- Erreur COM Photoshop 80080005 : message clair",
+  "version": "2.1.0",
+  "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v2.1.0/ShopmiumPdfAutomator_Setup_v2.1.0.exe",
+  "notes": "- Surveillance licence en temps reel : avertissement 15 min avant expiration\n- Chrono mm:ss en bas de l application\n- Cle expiree : message d erreur clair au lieu de faux succes\n- Mise a jour auto : telechargement propre, suppression anciens fichiers\n- Overlay expiration rouge bloquant avec bouton Renouveler",
   "required": false
 }
