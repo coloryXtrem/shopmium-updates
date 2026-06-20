@@ -1,6 +1,6 @@
 {
-  "version": "3.4.0",
-  "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v3.4.0/ShopmiumPdfAutomator_Setup_v3.4.0.exe",
+  "version": "3.3.5",
+  "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v3.4.0/ShopmiumPdfAutomator_Setup_v3.3.5.exe",
   "notes": "NOUVEAUTES v3.4.0\n\n== Resoumission intelligente (envoie exactement ce que Shopmium demande) ==\n- L application detecte automatiquement le type de preuve reclame et ne renvoie QUE celui-ci, ni plus ni moins\n- Si Shopmium redemande le ticket : reutilisation automatique du ticket stocke\n- Si Shopmium redemande une photo produit deja stockee : reutilisation automatique de la photo\n- La fenetre de resoumission affiche clairement le type de preuve concerne (ticket, photo, ou les deux)\n\n== Assistant photo produit (quand Shopmium demande une photo non stockee) ==\n- Un assistant complet apparait automatiquement avec : le prompt pret a copier, le bouton pour ouvrir Gemini, l image du produit a copier et le bouton d import\n- Une fois la photo importee, elle est conservee dans le stockage : si Shopmium la redemande, elle sera reutilisee automatiquement\n\n== Prompts ameliores ==\n- Le lien fourni pointe desormais vers la page exacte de l offre (et non plus vers l accueil du site)\n- Le code EAN-13 du produit est systematiquement indique des qu un code-barres est demande\n\n== Offres refusees ==\n- Les offres au statut Refusee sont retirees de l onglet Offres Shopmium (elles sont definitivement bloquees cote Shopmium et ne servent plus a rien)\n- Message clair lorsqu une offre n est plus disponible cote serveur (erreur 404) pour ne pas perdre de temps\n\n== Divers ==\n- Diverses corrections de stabilite et d affichage",
   "required": false
 }
