@@ -1,0 +1,6 @@
+# Cloudflare Pages — en-têtes du dépôt shopmium-updates
+# Ce fichier doit rester à la RACINE du dépôt, à côté de version.json.
+
+/version.json
+  Cache-Control: no-store, max-age=0, must-revalidate
+  Access-Control-Allow-Origin: *
