@@ -1,6 +1,6 @@
 {
-  "version": "3.5.2",
-  "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v3.5.2/ShopmiumPdfAutomator_Setup_v3.5.2.exe",
-  "notes": "== Correction : soumissions déjà en cours avant la mise à jour ==\n- Si vous aviez déjà des envois en cours au moment d'installer la version précédente, la limite de 4 ne les voyait pas et vous pouviez en envoyer 4 de plus\n- L'application vérifie désormais vos soumissions réelles dès la connexion, sans attendre que vous ouvriez l'onglet « Mes soumissions »\n- Tant que l'état n'est pas connu, l'envoi reste bloqué et le panneau affiche « Vérification en cours » — le déblocage est automatique en quelques secondes\n\n== Rappel des règles ==\n- 3 minutes entre deux envois, par compte, avec compte à rebours\n- 4 soumissions en cours de traitement au maximum, par compte\n- Une soumission libère sa place dès qu'elle est acceptée, remboursée, refusée ou abandonnée\n- Une soumission dont Shopmium réclame une photo ne compte pas dans la limite",
-  "required": false
+  "version": "3.5.4",
+  "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v3.5.4/ShopmiumPdfAutomator_Setup_v3.5.4.exe",
+  "notes": "== Fenêtre « Renvoyer une preuve » remise au thème ==\n- Cette fenêtre était restée en blanc, avec la barre de titre Windows et les boutons du système\n- Elle adopte désormais le fond sombre, la police et les couleurs du reste de l'application\n- Barre de titre intégrée, comme les autres fenêtres\n- Boutons « Envoyer » et « Annuler » harmonisés\n- Encadré d'assistance et messages d'erreur alignés sur la palette\n\n== Rappel des règles de soumission ==\n- 3 minutes entre deux envois, par compte, avec compte à rebours\n- 4 soumissions en cours de traitement au maximum, par compte\n- Une soumission libère sa place dès qu'elle est acceptée, remboursée, refusée ou abandonnée\n- Une soumission dont Shopmium réclame une photo ne compte pas dans la limite",
+  "required": true
 }
