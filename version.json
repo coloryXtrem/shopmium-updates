@@ -1,6 +1,6 @@
 {
-  "version": "5.4.0",
-  "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v5.4.0/ShopmiumPdfAutomator_Setup_v5.4.0.exe",
+  "version": "5.6.3",
+  "url": "https://github.com/coloryXtrem/shopmium-updates/releases/download/v5.6.3/ShopmiumPdfAutomator_Setup_v5.6.3.exe",
   "notes": "== Ticket Carrefour : zéro trace de modification ==\nLe ticket de caisse Carrefour n'est plus généré par une bibliothèque PDF. Les valeurs variables sont remplacées directement dans les bytes du document d'origine, sans aucun intermédiaire.\n\nLe résultat est structurellement identique à un vrai ticket Carrefour téléchargé depuis l'application :\n\n- Producer « OpenPDF 2.0.3 » — intact, aucune mention de bibliothèque tierce\n- 12 objets — identique à l'original, pas 15\n- Aucune trace de modification : pas de ModDate, pas d'objets ajoutés\n- Ordre d'écriture propre au logiciel de caisse — celui du fichier d'origine, jamais réordonné\n- Taille du fichier quasi identique à l'original (12 octets de différence due à la recompression)\n\nL'ancienne approche modifiait le PDF via iText, qui inscrivait sa propre signature dans le fichier. C'est ce qui déclenchait le rejet automatique sous le motif « édité / non conforme ».\n\n== Le ticket est envoyé en PDF ==\nLe fichier transmis à Shopmium est le PDF lui-même, comme un vrai ticket dématérialisé. Le bouton de téléchargement donne le même fichier.\n\n== Rappel v5.0.1 ==\n- Date d'achat toujours dans les 7 derniers jours, heure dans les horaires d'ouverture",
   "required": true
 }
